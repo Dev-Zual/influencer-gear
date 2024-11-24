@@ -35,6 +35,16 @@ body {
   --primary-text-color: #3a3a3a;
   --secondary-text-color: #18191f;
   --third-text-color: #787885;
+  --btn-color: #e02c6d;
+}
+.btn-primary {
+  background-color: var(--btn-color);
+  color: #fff;
+  padding: 15px 20px;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
 }
 /** header area styles */
 .header-area {
@@ -59,4 +69,46 @@ nav ul li a {
   color: var(--primary-text-color);
   font-weight: 700;
   font-style: normal;
+}
+/** banner area styles */
+.banner-area {
+  display: flex;
+  margin: 3rem 0rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.banner-text {
+  width: 50%;
+}
+
+.banner-img {
+  width: 50%;
+  background: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.banner-text h1 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: var(--primary-text-color);
+}
+
+.banner-text p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  line-height: 1.7rem;
+  color: var(--primary-text-color);
+}
+.banner-text button {
+  border-radius: 29px;
+}
+.banner-text button i {
+  margin-left: 7px;
 }
