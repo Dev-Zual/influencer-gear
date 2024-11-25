@@ -123,3 +123,81 @@ section.logos-area {
   margin-top: 6rem;
   margin-bottom: 4rem;
 }
+/* collections area  */
+section.collection-area {
+  padding-bottom: 50px;
+}
+
+section.collection-area h1 {
+  text-align: center;
+  font-size: 1.75rem;
+  margin: 3rem;
+  color: var(--primary-text-color);
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--primary-text-color);
+  margin: 0.8rem 0;
+}
+
+h3.price {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+.reviews p {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--third-text-color);
+}
+
+.card p {
+  font-size: 0.875rem;
+  padding: 3px 0;
+  color: var(--third-text-color);
+  font-weight: 700;
+}
+.reviews i {
+  color: #fb8200;
+  font-size: 0.7rem;
+}
+
+.card p span {
+  margin-left: 11px;
+}
+.see-more-btn a {
+  color: #e02c6d;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.see-more-btn {
+  text-align: right;
+  padding-right: 30px;
+  margin-top: 33px;
+}
+
+.see-more-btn a i {
+  margin-left: 6px;
+}
