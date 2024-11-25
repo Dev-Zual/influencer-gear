@@ -45,6 +45,7 @@ body {
   font-size: 1rem;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 /** header area styles */
 .header-area {
@@ -123,7 +124,7 @@ section.logos-area {
   margin-top: 6rem;
   margin-bottom: 4rem;
 }
-/* collections area  */
+/** collections area  */
 section.collection-area {
   padding-bottom: 50px;
 }
@@ -200,4 +201,79 @@ h3.price {
 
 .see-more-btn a i {
   margin-left: 6px;
+}
+/** featured area  */
+.featured-area {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0px;
+}
+
+.featured-img {
+  width: 45%;
+}
+
+.featured-text {
+  width: 55%;
+}
+
+.featured-img img {
+  width: 100%;
+}
+
+.featured-text h1 {
+  font-size: 2.375rem;
+  color: #0a0826;
+  font-weight: 700;
+}
+
+.featured-text p {
+  padding: 20px 0;
+  line-height: 1.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--third-text-color);
+}
+/** footer area  */
+footer {
+  background: #0a0826;
+  color: #fff;
+  padding: 50px 0px;
+}
+
+.footer-area {
+  text-align: center;
+}
+
+.footer-area h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footer-area p {
+  color: #d9dbe1;
+  font-size: 0.875rem;
+  padding: 4px 0px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  background: #ffffff2e;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.social-icon i {
+  margin-top: 7px;
 }
