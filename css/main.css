@@ -112,3 +112,14 @@ nav ul li a {
 .banner-text button i {
   margin-left: 7px;
 }
+/** banner area ends  */
+/* logos area  */
+section.logos-area {
+  overflow: hidden;
+  display: FLEX;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
