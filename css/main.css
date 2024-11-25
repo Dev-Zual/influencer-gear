@@ -264,6 +264,7 @@ footer {
   gap: 15px;
   align-items: center;
   font-size: 1rem;
+  margin-top: 15px;
 }
 
 .social-icon {
