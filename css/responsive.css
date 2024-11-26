@@ -8,4 +8,25 @@
   .mobile-cart {
     display: block;
   }
+  .banner-area,
+  .featured-area {
+    flex-direction: column-reverse;
+  }
+  .featured-area {
+    padding-top: 1rem;
+  }
+  .banner-text,
+  .featured-text,
+  .featured-img {
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+  }
+  .collections {
+    grid-template-columns: 1fr;
+  }
+  section.logos-area {
+    padding: 0 30px;
+    flex-wrap: wrap;
+  }
 }

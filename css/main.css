@@ -131,7 +131,7 @@ header ul li a {
 /* logos area  */
 section.logos-area {
   overflow: hidden;
-  display: FLEX;
+  display: flex;
   gap: 2rem;
   align-items: center;
   justify-content: space-evenly;
