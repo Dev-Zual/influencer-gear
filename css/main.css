@@ -54,6 +54,9 @@ body {
   justify-content: space-between;
   padding: 1rem 0rem;
 }
+.menu-toggle {
+  display: none;
+}
 .menu-toggle span {
   width: 25px;
   height: 3px;

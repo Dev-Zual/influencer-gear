@@ -5,6 +5,9 @@
   nav {
     display: none;
   }
+  .menu-toggle {
+    display: block;
+  }
   .mobile-cart {
     display: block;
   }
