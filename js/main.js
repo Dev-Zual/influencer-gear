@@ -3,7 +3,7 @@ const menu = document.getElementById("mobile-menu");
 toggle.addEventListener("click", (e) => {
   menu.classList.toggle("show");
   if (menu.classList.contains("show")) {
-    toggle.innerHTML = `<p style="font-size: 1.5rem;">✖</p>`; // Change to "exit" icon
+    toggle.innerHTML = `<p style="font-size: 1.5rem;padding:2px 3px">✖</p>`; // Change to "exit" icon
   } else {
     toggle.innerHTML = ` <span></span><span></span>
             <span></span>`; // Change back to "menu" icon
