@@ -54,13 +54,27 @@ body {
   justify-content: space-between;
   padding: 1rem 0rem;
 }
-
+.menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background: #414040;
+  margin-bottom: 3px;
+  display: block;
+  border-radius: 5px;
+}
+.mobile-cart {
+  display: none;
+}
+.mobile-cart a {
+  font-size: 1.6rem;
+}
 nav ul {
   display: flex;
   gap: 20px;
 }
 
-nav ul li a {
+nav ul li a,
+header ul li a {
   font-size: 1rem;
   font-weight: 500;
   color: var(--primary-text-color);
